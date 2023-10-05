@@ -1,0 +1,64 @@
+.squad
+{
+    width: 100%;
+}
+
+.squad .ttl
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 2px 2px #717171;
+}
+
+.squad .director
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2em 0;
+}
+
+.squad .rnd 
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2em 0;
+}
+
+.stk .r1, .r2, .r3
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2em 0;
+}
+
+.director :hover
+{
+    filter: blur(1.5px);
+    transform: scale(1.2);
+}
+
+.rnd li :hover
+{
+    filter: blur(1.5px);
+    transform: scale(1.2);
+}
+
+.rnd li:hover #txt
+{
+    display: block;
+}
+
+.stk ul li :hover
+{
+    filter: blur(1.5px);
+    transform: scale(1.2);
+}
